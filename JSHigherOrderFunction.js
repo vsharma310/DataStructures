@@ -20,6 +20,8 @@ const calculate = (r, logic) => {
     return a;
 };
 
+console.log(radius.map(area)); 
+
 console.log(calculate(radius,area)); 
 
 console.log(calculate(radius,diameter)); 
